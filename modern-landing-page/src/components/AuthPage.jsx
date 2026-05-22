@@ -72,7 +72,7 @@ import {Mail, Lock, User, ArrowRight} from "lucide-react"
                             )}
                         </div>
                         <div className="relative flex items-center">
-                            <lock className="absolute left-4 text-slate-500" size={18} />
+                            <Lock className="absolute left-4 text-slate-500" size={18} />
                             <input
                              type="password" required
                              placeholder ="**********"

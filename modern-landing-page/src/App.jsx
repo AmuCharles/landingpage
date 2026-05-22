@@ -13,13 +13,13 @@ import AuthPage from "./components/AuthPage";
     <Navbar setAuthMode ={setAuthMode} currentMode={authMode}/>
 
     {authMode === "landing"? (
-      <main className="flex-grow">
+      <main className="grow">
         <Hero setAuthMode = {setAuthMode} />
         <Features />
         <Testimonials />
       </main>
     ) : ( 
-      <main className="flex-grow flex items-center justify-center py-16 px-4">
+      <main className="grow flex items-center justify-center py-16 px-4">
         <AuthPage mode={authMode} setAuthMode={setAuthMode} />
       </main>
     )}
